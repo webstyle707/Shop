@@ -2,7 +2,7 @@
 import React, { useState,useEffect } from 'react'
 import Image from 'next/image';
 import Link from 'next/link';
-// import DropdownCategories from './DropdownCategories';
+import DropdownCategories from './DropdownCategories';
 
 
 import { IoIosArrowDown } from "react-icons/io";
@@ -188,7 +188,7 @@ function Header() {
                     </div>  
                     <MdKeyboardArrowDown className='text-2xl text-white'/>
                   </div>
-                    {/* <DropdownCategories dropdown={dropdown}/> */}
+                    <DropdownCategories dropdown={dropdown}/>
                 </div>
                 <div className='flex items-center space-x-7 pl-8 text-sm font-semibold text-gray-800'>
                   <Link href={"/"}>
